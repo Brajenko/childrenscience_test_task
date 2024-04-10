@@ -1,0 +1,90 @@
+.help-message {
+    width: 484px;
+    max-width: 484px;
+}
+
+/* --- step 1 elements style --- */
+
+.draggable {
+    width: 34px;
+    height: 48px;
+
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+}
+
+.droppable {
+    width: 34px;
+    height: 48px;
+}
+
+#field[data-task="1"] .__number {
+    font-size: 32;
+}
+
+/* --- step 1 elements position --- */
+
+#field[data-task="1"] .step-description {
+    top: 50px;
+    width: 46%;
+}
+
+#field[data-task="1"] .__task-image {
+    top: 90px;
+    left: 47%;
+}
+
+#field[data-task="1"] .__bracket {
+    top: 260px;
+}
+
+#field[data-task="1"] .__left-bracket {
+    left: 55px;
+}
+
+#field[data-task="1"] .__right-bracket {
+    left: 415px;
+}
+
+/* #field[data-task="1"] .__number {
+    top: 295px;
+}
+
+#field[data-task="1"] .__number1 {
+    left: 70px;
+} */
+
+#field[data-task="1"] .droppable {
+    top: 305px;
+}
+
+#field[data-task="1"] .draggable {
+    top: 365px;
+}
+
+#field[data-task="1"] #droppable1,
+#field[data-task="1"] #draggable1 {
+    left: 140px;
+}
+#field[data-task="1"] #droppable2,
+#field[data-task="1"] #draggable2 {
+    left: 178px;
+}
+#field[data-task="1"] #droppable3,
+#field[data-task="1"] #draggable3 {
+    left: 216px;
+}
+#field[data-task="1"] #droppable4,
+#field[data-task="1"] #draggable4 {
+    left: 254px;
+}
+#field[data-task="1"] #droppable5,
+#field[data-task="1"] #draggable5 {
+    left: 292px;
+}
+#field[data-task="1"] #droppable6,
+#field[data-task="1"] #draggable6 {
+    left: 330px;
+}

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=960">
+    <title>Task</title>
+
+    <link href="https://childrenscience.ru/apps/tasks/_framework/libs.min.css" rel="stylesheet" type="text/css">
+    <link href="https://childrenscience.ru/apps/tasks/_framework/style.css" rel="stylesheet" type="text/css">
+
+    <link href="./style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="https://childrenscience.ru/apps/tasks/_framework/libs.min.js"></script>
+    <script type="text/javascript" src="https://childrenscience.ru/apps/tasks/_framework/index.js"></script>
+
+    <script type="text/javascript">
+        globalVars.currentTask = 1;
+
+        var task = [
+
+            // settings
+            {},
+
+            // step 1 //////////////////////////////////////////////////////////////////
+
+            {
+                "nextStepDelay": 800,
+                "button": true,
+                "buttonActive": false,
+
+                "test_help": {
+                    "help_message": "Проследите, какой номер КП переходит в какой на маршруте Дениса"
+                },
+
+                "test_images":
+                    [
+                        {
+                            "classes": "task_description",
+                            "value": "Задача"
+                        },
+                        {
+                            "classes": "step-description",
+                            "value": "<p>На соревнованиях по спортивному ориентированию Денис прошел все контрольные пункты (КП) в порядке, показанном на рисунке.</p><p>Запишите в виде перестановки порядок следования номеров КП в маршруте Дениса.</p>"
+                        },
+                        {
+                            "classes": "__task-image",
+                            "value": "<img src='img/svg21-01.svg' width='466' height='300' alt=''>"
+                        },
+                        {
+                            "classes": "__bracket __left-bracket",
+                            "value": "<img src='img/svg21-03.svg' height='100' alt=''>"
+                        },
+                        {
+                            "classes": "__bracket __right-bracket",
+                            "value": "<img src='img/svg21-04.svg' height='100' alt=''>"
+                        },
+                        {
+                            "classes": "__number __number1",
+                            "value": "1"
+                        },
+                        {
+                            "classes": "__number __number2",
+                            "value": "2"
+                        },
+                        {
+                            "classes": "__number __number3",
+                            "value": "3"
+                        },
+                        {
+                            "classes": "__number __number4",
+                            "value": "4"
+                        },
+                        {
+                            "classes": "__number __number5",
+                            "value": "5"
+                        },
+                        {
+                            "classes": "__number __number6",
+                            "value": "6"
+                        },
+                        {
+                            "classes": "__number __number7",
+                            "value": "7"
+                        },
+                        {
+                            "classes": "__number __number8",
+                            "value": "8"
+                        },
+                        {
+                            "classes": "__down-number __down-number1",
+                            "value": "1"
+                        },
+                        {
+                            "classes": "__down-number __down-number3",
+                            "value": "3"
+                        },
+                    ],
+
+                "test_drag_n_drop": {
+                    "emptyCheck": true,
+                    "stackMode": false,
+
+                    "draggables": [
+                        {},
+                        { "value": "2" },
+                        { "value": "4" },
+                        { "value": "5" },
+                        { "value": "6" },
+                        { "value": "7" },
+                        { "value": "8" }
+                    ],
+
+                    "droppables": [
+                        {},
+                        { "values": "5" },
+                        { "values": "7" },
+                        { "values": "2" },
+                        { "values": "8" },
+                        { "values": "4" },
+                        { "values": "6" },
+
+                    ]
+                }
+            },
+
+            // step 2 //////////////////////////////////////////////////////////////////
+
+            {
+                "nextStepDelay": 800,
+                "button": true,
+
+                "test_help": {
+                    "help_message": "В композиции перестановки совершаются, начиная с правой"
+                },
+
+                "test_images":
+                    [
+                        {
+                            "classes": "task_description",
+                            "value": "Задача"
+                        },
+
+                        {
+                            "classes": "step-description",
+                            "value": "Найдите композиции перестановок:"
+                        },
+
+                        {
+                            "classes": "__image1",
+                            "value": "<img src='img/svg22-01.svg' width='446' height='58' alt=''>"
+                        },
+                        {
+                            "classes": "__image2",
+                            "value": "<img src='img/svg22-02.svg' width='782' height='79' alt=''>"
+                        }
+                    ],
+
+                "test_drag_n_drop": {
+                    "emptyCheck": true,
+                    "stackMode": true,
+
+                    "draggables": [
+                        {},
+                        { "value": "1" },
+                        { "value": "2" },
+                        { "value": "3" },
+                        { "value": "4" },
+                        { "value": "5" },
+                        { "value": "6" }
+                    ],
+
+                    "droppables": [
+                        {},
+                        { "values": "3" },
+                        { "values": "4" },
+                        { "values": "5" },
+                        { "values": "6" },
+                        { "values": "1" },
+                        { "values": "2" },
+
+                        { "values": "3" },
+                        { "values": "4" },
+                        { "values": "5" },
+                        { "values": "6" },
+                        { "values": "1" },
+                        { "values": "2" },
+
+
+                    ]
+                }
+
+            },
+        ];
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
