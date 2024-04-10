@@ -56,43 +56,43 @@
                             "value": "<img src='img/svg21-04.svg' height='100' alt=''>"
                         },
                         {
-                            "classes": "__number __number1",
+                            "classes": "__number __upper-number __number1",
                             "value": "1"
                         },
                         {
-                            "classes": "__number __number2",
+                            "classes": "__number __upper-number __number2",
                             "value": "2"
                         },
                         {
-                            "classes": "__number __number3",
+                            "classes": "__number __upper-number __number3",
                             "value": "3"
                         },
                         {
-                            "classes": "__number __number4",
+                            "classes": "__number __upper-number __number4",
                             "value": "4"
                         },
                         {
-                            "classes": "__number __number5",
+                            "classes": "__number __upper-number __number5",
                             "value": "5"
                         },
                         {
-                            "classes": "__number __number6",
+                            "classes": "__number __upper-number __number6",
                             "value": "6"
                         },
                         {
-                            "classes": "__number __number7",
+                            "classes": "__number __upper-number __number7",
                             "value": "7"
                         },
                         {
-                            "classes": "__number __number8",
+                            "classes": "__number __upper-number __number8",
                             "value": "8"
                         },
                         {
-                            "classes": "__down-number __down-number1",
+                            "classes": "__number __down-number __number1",
                             "value": "1"
                         },
                         {
-                            "classes": "__down-number __down-number3",
+                            "classes": "__number __down-number __number8",
                             "value": "3"
                         },
                     ],
@@ -130,10 +130,6 @@
                 "nextStepDelay": 800,
                 "button": true,
 
-                "test_help": {
-                    "help_message": "В композиции перестановки совершаются, начиная с правой"
-                },
-
                 "test_images":
                     [
                         {
@@ -143,52 +139,45 @@
 
                         {
                             "classes": "step-description",
-                            "value": "Найдите композиции перестановок:"
+                            "value": "Сколько всего существует различных способов построить маршрут через все КП, начав и закончив КП1?"
                         },
 
                         {
-                            "classes": "__image1",
-                            "value": "<img src='img/svg22-01.svg' width='446' height='58' alt=''>"
+                            "classes": "__task-image",
+                            "value": "<img src='img/svg21-02.svg' width='466' height='300' alt=''>"
+                        },
+                    ],
+
+                "test_clickable":
+                    [
+                        {
+                            "multiselect": false,
+                            "autocheck": false,
+                            "classes": ""
+                        },
+                        
+                        {
+                            "value": "8!",
+                            "classes": "",
+                            "right": false
                         },
                         {
-                            "classes": "__image2",
-                            "value": "<img src='img/svg22-02.svg' width='782' height='79' alt=''>"
+                            "value": "7!",
+                            "classes": "",
+                            "right": true
+                        },
+                        {
+                            "value": "6!",
+                            "classes": "",
+                            "right": false
+                        },
+                        {
+                            "value": "Другой ответ",
+                            "classes": "",
+                            "right": false
                         }
-                    ],
-
-                "test_drag_n_drop": {
-                    "emptyCheck": true,
-                    "stackMode": true,
-
-                    "draggables": [
-                        {},
-                        { "value": "1" },
-                        { "value": "2" },
-                        { "value": "3" },
-                        { "value": "4" },
-                        { "value": "5" },
-                        { "value": "6" }
-                    ],
-
-                    "droppables": [
-                        {},
-                        { "values": "3" },
-                        { "values": "4" },
-                        { "values": "5" },
-                        { "values": "6" },
-                        { "values": "1" },
-                        { "values": "2" },
-
-                        { "values": "3" },
-                        { "values": "4" },
-                        { "values": "5" },
-                        { "values": "6" },
-                        { "values": "1" },
-                        { "values": "2" },
-
-
                     ]
-                }
+
 
             },
         ];

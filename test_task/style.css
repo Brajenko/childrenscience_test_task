@@ -13,18 +13,21 @@
     line-height: 48px;
 
     text-align: center;
+    margin-left: 6px;
 }
 
 .droppable {
     width: 34px;
+    margin-left: 6px;
     height: 48px;
 }
 
 #field[data-task="1"] .__number {
     font-size: 32;
+    width: 45px;
 }
 
-/* --- step 1 elements position --- */
+/* --- task 1 elements position --- */
 
 #field[data-task="1"] .step-description {
     top: 50px;
@@ -48,15 +51,60 @@
     left: 415px;
 }
 
-/* #field[data-task="1"] .__number {
-    top: 295px;
+#field[data-task="1"] .__upper-number {
+    top: 270px;
 }
 
 #field[data-task="1"] .__number1 {
-    left: 70px;
-} */
+    left: 67px;
+}
+
+#field[data-task="1"] .__number2,
+#field[data-task="1"] #droppable1,
+#field[data-task="1"] #draggable1 {
+    left: 109px;
+}
+
+#field[data-task="1"] .__number3,
+#field[data-task="1"] #droppable2,
+#field[data-task="1"] #draggable2 {
+    left: 151px;
+}
+
+#field[data-task="1"] .__number4,
+#field[data-task="1"] #droppable3,
+#field[data-task="1"] #draggable3 {
+    left: 193px;
+}
+
+#field[data-task="1"] .__number5,
+#field[data-task="1"] #droppable4,
+#field[data-task="1"] #draggable4 {
+    left: 235px;
+}
+
+#field[data-task="1"] .__number6,
+#field[data-task="1"] #droppable5,
+#field[data-task="1"] #draggable5 {
+    left: 277px;
+}
+
+#field[data-task="1"] .__number7,
+#field[data-task="1"] #droppable6,
+#field[data-task="1"] #draggable6 {
+    left: 319px;
+}
+
+#field[data-task="1"] .__number8 {
+    left: 361px;
+}
+
+#field[data-task="1"] .__down-number {
+    top: 315px;
+}
 
 #field[data-task="1"] .droppable {
+    text-align: center;
     top: 305px;
 }
 
@@ -64,27 +112,46 @@
     top: 365px;
 }
 
-#field[data-task="1"] #droppable1,
-#field[data-task="1"] #draggable1 {
-    left: 140px;
+
+/* --- task 2 elements style --- */
+
+.clickable {
+    padding: 0px 5px;
+    height: 48px;
+
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
 }
-#field[data-task="1"] #droppable2,
-#field[data-task="1"] #draggable2 {
-    left: 178px;
+
+
+/* task 2 elements position */
+#field[data-task="2"] .step-description {
+    width: 40%;
 }
-#field[data-task="1"] #droppable3,
-#field[data-task="1"] #draggable3 {
-    left: 216px;
+
+#field[data-task="2"] .__task-image {
+    top: 90px;
+    left: 47%;
 }
-#field[data-task="1"] #droppable4,
-#field[data-task="1"] #draggable4 {
-    left: 254px;
+
+#field[data-task="2"] .clickable {
+    top: 360px;
 }
-#field[data-task="1"] #droppable5,
-#field[data-task="1"] #draggable5 {
-    left: 292px;
+
+#field[data-task="2"] #clickable1 {
+    left: 50px;
 }
-#field[data-task="1"] #droppable6,
-#field[data-task="1"] #draggable6 {
-    left: 330px;
+
+#field[data-task="2"] #clickable2 {
+    left: 110px;
+}
+
+#field[data-task="2"] #clickable3 {
+    left: 170px;
+}
+
+#field[data-task="2"] #clickable4 {
+    left: 230px;
 }
