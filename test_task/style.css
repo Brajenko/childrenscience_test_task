@@ -3,6 +3,10 @@
     max-width: 484px;
 }
 
+.image.step-description {
+    font-weight: 500;
+}
+
 /* --- step 1 elements style --- */
 
 .draggable {
@@ -11,6 +15,7 @@
 
     font-size: 32px;
     line-height: 48px;
+    font-weight: 500;
 
     text-align: center;
     margin-left: 6px;
@@ -18,13 +23,15 @@
 
 .droppable {
     width: 34px;
-    margin-left: 6px;
     height: 48px;
+    margin-left: 6px;
 }
 
 #field[data-task="1"] .__number {
-    font-size: 32;
     width: 45px;
+
+    font-size: 32;
+    font-weight: 500;
 }
 
 /* --- task 1 elements position --- */
@@ -121,6 +128,7 @@
 
     font-size: 32px;
     line-height: 48px;
+    font-weight: 500;
 
     text-align: center;
 }
